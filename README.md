@@ -32,11 +32,7 @@ The data needs to extracted from AWS RDS and saved locally before proceeding to 
 
 1. **Data extraction and cleaning.** I developed an ELT pipeline: the data was be extracted from AWS RDS database, loaded as a dataframe and cleaned for analysis by transforming column data types and dealing with missing data. The data was also be prepared for ML by dealing with outliers, dropping overly correlated columns and correcting data skewness (log, boxcox transformations).
 
-2. **Exploratory Data Analysis (EDA)**. I identified general trends in the data by looking at summary statistics, variable distributions and variable-variable relationships, and detected relevant anomalies. For data cleaning and EDA, please check the notebook [`EDA_website_activity.ipynb`](https://github.com/selvatica-36/Exploratory-data-analysis---Online-shopping-in-retail/blob/main/EDA_website_activity.ipynb).
-
-3. **Explanatory Data Analysis.** I answered relevant business questions regarding sales trends, marketing strategy, website performance and customer behaviour. To do so, I generated informative data visualisations and **offered insights and recommendations**. This is available in the notebook [`business_analysis_report.ipynb`](https://github.com/selvatica-36/Exploratory-data-analysis---Online-shopping-in-retail/blob/main/business_analysis_report.ipynb).
-
-4. **Bonus**: conversion rate analysis using pivot tables in Excel.
+2. **Exploratory Data Analysis (EDA)**. I identified general trends in the data by looking at summary statistics, variable distributions and variable-variable relationships, and detected relevant anomalies. 
 
 
 ### Skills
@@ -74,9 +70,6 @@ The data needs to extracted from AWS RDS and saved locally before proceeding to 
 2️⃣ Offer discounts to weekend visitors to entice weekend sales, as well as to returning visitors.
 
 3️⃣ **Improve mobile accessibility to the website.** Data shows most users access through desktop, which can indicate that the website does not work as well on mobile.
-
-## Project set up and how-to guides
-For detailed guides to the project, please refer to the [Github Wiki](https://github.com/selvatica-36/Exploratory-data-analysis---Online-shopping-in-retail/wiki). These guides include installation instructions, how to use the repository and details on the dataset. 
 
 ## Improvements and next steps 
 - YoY growth analysis (in number of sales).
